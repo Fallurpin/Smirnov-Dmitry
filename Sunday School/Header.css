@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+  .head {
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+  
+  .logo {
+    position: absolute;
+    width: 57.24px;
+    height: 57.44px;
+    left: 2.15%;
+    right: 2.45%;
+    top: 2.32%;
+    bottom: 1.95%;
+}
+  
+
+  
+  .btn {
+    flex: 1;
+    display: flex;
+    margin: 0 120px;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+  .btn1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 120px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+  .btn2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 120px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+  .btn3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 120px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+  
+  .menu {
+    cursor: pointer;
+}
+  
+  .line {
+    flex: 1;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}

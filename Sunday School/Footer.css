@@ -1,0 +1,29 @@
+.foot {
+    background-color: rgb(196, 196, 196);
+    padding: 20px;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+  
+  .links {
+    display: flex;
+    align-items: center;
+}
+  
+  .links p {
+    margin-right: 10px;
+}
+  
+  .links a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+  
+  .links a:hover {
+    text-decoration: underline;
+}
+  

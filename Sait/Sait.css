@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    background: linear-gradient(rgb(255, 255, 255), rgb(201, 176, 255))fixed;
+    background-image: url(img/Nav.jpg);
+}
+.Footer{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(172, 204, 255);
+    background-image: url(img/Fon4.webp);
+}
+.ikon{
+    width: 33.33%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.Ikon{
+    width: 40%;
+    height: 20%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navi{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.contact{
+    width: 40%;
+
+}
+.Ikonsaiz{
+    width: 100%;
+    height:100%;
+    margin: 0;
+}
+.back{
+    border: 1px black solid;
+    width: 100%;
+    height: 150px;
+}
+.buttonsaiz{
+width: 200%;
+height: 190%;
+color: #ffdb8f;
+
+}
+.ul1{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 20px;
+}
+.Zagolovok{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+    font-family: 'segoe print';
+    color: white;
+}
+.Menu{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+}
+.Menu2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.Menu3{
+    width: 90%;
+    height: 100px; 
+}
+.BottonSaiz{
+width: 100%;
+}
+.Contet{
+    width: 100%;
+    height: 600px;
+}
+.Conteinercontent{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.Conteineruntific{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.Conteineredit{
+    border-bottom: 1px black solid;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.conteinerWindow{
+    width: 15.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window{
+ width: 150px;
+ height: 150px;
+ border: 1px black solid;
+}
+.Conteinername{
+    width: 33.33%;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.Name{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.Buttonedit1{
+    width: 50%;
+    height: 100%;
+    justify-items: center;
+    align-content: end;
+}
+.Buttonedit2{
+    width: 50%;
+    height: 100%;
+    justify-items: center;
+    align-content: end;
+}
+.text{
+    font-family: 'segoe print';
+    font-size: 30px;
+    color: white;
+}
+.texts{
+    font-size: 20px;
+    color: white;
+}
+.Backgoundslaid{
+    background: no-repeat;
+    background-image: url(img/Fons.webp);
+}

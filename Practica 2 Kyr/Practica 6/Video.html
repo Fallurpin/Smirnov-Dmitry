@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="Video.css">
+</head>
+<body>
+    <header>
+        <section>
+        <h2>Video</h2>
+        <p>Загружаем видео</p>
+        <iframe src="C:\Project\Practica 2 Kyr\Practica 6\Изучи JavaScript за 5 минут в 2023.mp4" frameborder="0" allowfullscreen autoplay Loop muted></iframe>
+    </section>
+    </header>
+    <main>
+        <section class="form">
+            <div class="content">
+                <form action="answer.html" method="post">
+                    <div class="form__contact">
+                        <input type="text" placeholder="Ваше имя" pattern="[a-zA-Zа-яА-Я]{2,}" required title="Имя должно состоять из букв и быть не короче 2 символов">
+                        <input type="tel" name="tel-number" id="tel-number" placeholder="89041041706" pattern="[0-9]{11}" required title="Телефон должен состоять из 11 цифр">
+                    </div>
+                    <div class="form__download">
+                        <label for="download">ЕСТЬ ФОТО ПРИМЕРА? ЗАГРУЖАЙ ЗДЕСЬ</label>
+                        <input type="file" id="download" name="download" accept=".png, .jpg, .jpeg">
+                    </div>
+                    <div class="form__submit">
+                        <input type="checkbox" name="personal" id="personal" required>
+                        <label for="personal">Я СОГЛАСЕН НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ</label>
+                        <input type="submit" value="ПООБЩАТЬСЯ">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+

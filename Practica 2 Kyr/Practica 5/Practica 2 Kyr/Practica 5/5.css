@@ -1,0 +1,135 @@
+@media screen and (max-width: 940px) { 
+    .banner h1 { 
+        font-size: 8em; 
+    } 
+    .banner h2 { 
+        font-size: 5em; 
+    } 
+} 
+
+@media screen and (max-width: 690px) { 
+    .banner h1 { 
+        font-size: 6em; 
+    } 
+    .banner h2 { 
+        font-size: 3em; 
+    } 
+}
+
+@media screen and (max-width: 1145px) { 
+    .carousel-text { 
+        font-size: 1.3rem; 
+    } 
+}
+
+.nav-link:hover { 
+    background-color: lightgrey;
+    color: #ffffff; 
+}
+@font-face { 
+    font-family: Pobeda-Bold;
+    src: url(Шрифт/pobeda-bold.ttf); 
+}
+.banner { 
+    background-color: #00000050; 
+    background-blend-mode: color-burn; 
+    background-image: url(media/banner-bg.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    color: #ffffff85; 
+    height: 85vh; 
+    display: flex; 
+    place-items: center; 
+    font-family: Pobeda-Bold; 
+    text-align: center; } 
+.banner h1 { 
+    font-size: 12em; 
+} 
+.banner h2 { 
+    font-size: 10em; 
+}
+
+.select { 
+    background-color: orange; 
+    color: #ffffff; 
+    padding: 1px; 
+}
+
+
+.carousel-inner { 
+    max-height: 135vh; 
+} 
+.carousel-item { 
+    filter: brightness(1.2); 
+} 
+.carousel-caption { 
+    padding-bottom: 15%; 
+} 
+.carousel-date { 
+    font-weight: 900;
+} 
+.carousel-text { 
+    display: block; 
+    background-color: rgba(255, 255, 255, 0.6); 
+    margin-bottom: 5%; 
+    font-size: 1.5rem; 
+} 
+.carousel-note { color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+.carousel-title { 
+    display: inline-block; 
+    color: #ffffff; 
+    background-color: rgba(255, 0, 0, 0.9); 
+}
+
+.hero-photo {
+    width: 100%;
+} 
+.hero-name { 
+    display: inline-block; 
+    color: #ffffff; 
+    background-color: rgba(255, 145, 0, 0.9); 
+    font-weight: 900; 
+} 
+.hero-date { 
+    display: inline-block; 
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.hero-city a:hover {
+    background-color: lightgrey;
+    color: #ffffff;
+  }
+  
+  .hero-city .card img {
+    filter: grayscale();
+  }
+  /* .hero-city .card:hover a {
+    background-color:lightgrey;
+  } */
+  .hero-city .card:hover img {
+    filter: none;
+  }
+  
+  .hero-city .card a {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+
+.footer {
+    height: 10vh;
+} 
+.footer a { 
+    padding-left: 2px; 
+    padding-right: 2px; 
+    text-decoration: none; 
+    color: #000000; 
+} 
+.footer a:hover { 
+    color: #ffffff; 
+    background-color: #66ff00; 
+}

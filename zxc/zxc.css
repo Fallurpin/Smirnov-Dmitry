@@ -1,0 +1,84 @@
+html,
+body {
+    background-color: aqua;
+}
+
+
+.sun {
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+
+    animation: sundrive 10s forwards ease-in-out;
+}
+
+@keyframes sundrive {
+    0% {
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
+
+    50% {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    100% {
+        top: 50%;
+        left: 100%;
+        transform: translate(-100%, -50%);
+    }
+}
+.d39 {
+    position: relative;
+    width: 3em; 
+    height: 3em; 
+    margin: 2em;
+    background: #D5DEE9;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color: #6E839E;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+    top: 200px;
+    transition: none 10s ease-in-out 0ms;
+    animation:Oblako 10s ease-in-out ;
+    }
+    .d39:before, 
+    .d39:after {
+    content: "";
+    position: absolute; 
+    bottom: -0.25em;
+    background: inherit;
+    border-width: 0.25em;
+    border-style: solid;
+    border-color: #6E839E;
+    }
+    .d39:before {
+    left: 80%; 
+    width: 60%; 
+    height: 60%;
+    border-left: none;
+    border-radius: 50% 50% 50% 0;
+    }
+    .d39:after {
+    right: 80%;
+    width: 80%; 
+    height: 80%;
+    border-right: none;
+    border-radius: 50% 50% 0;
+    }
+    @keyframes Oblalko{
+        0%{
+            transform: translate(100%,-50%);
+        }
+        50%{
+            transform: translate(100%,0%);
+        }
+        100%{
+        transform: translate(100%,50%);
+        }
+    }
