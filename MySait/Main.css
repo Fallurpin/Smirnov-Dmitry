@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  .BackgroundHeader{
+    background-color: #6f2cf5;
+  }
+  .img {
+      height: 200px;
+    }
